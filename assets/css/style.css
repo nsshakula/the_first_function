@@ -30,6 +30,19 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.btn-back:hover {
+  color: #730d73;
+  border-color: currentColor;
+  background-color: white;
+}
+
+.btn-back:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
+    0 0 0 1.5px rgba(255, 105, 180, 0.5);
+}
+
 .btn-forward {
   display: inline-block;
   padding: 10px 70px;
@@ -40,13 +53,13 @@ h1 {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-forward:hover {
   color: #730d73;
   border-color: currentColor;
   background-color: white;
 }
 
-.btn:focus {
+.btn-forward:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
     0 0 0 1.5px rgba(255, 105, 180, 0.5);
